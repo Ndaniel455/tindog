@@ -1,0 +1,143 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+}
+
+ /* nav section */
+#title{
+  background-color:#ff4c68
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.BigHeading{
+  font-size: 3rem;
+  line-height: 1.5;
+  color:white;
+  margin-bottom: 20px;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding:3% 15%;
+}
+.navbar-brand{
+  font-size: 35px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  text-shadow: -1px 1px black;
+}
+.nav-link{
+  margin-left: 40px;
+}
+.TitleDiv{
+  padding-bottom: 40px;
+}
+.PhoneImage{
+  transform: rotate(25deg);
+  height: 600px; 
+  padding-left: 100px;
+}
+.highlightsIcon{
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+#features{
+  margin-top: -150px;
+  padding: 7% 15%;
+  background-color: white;
+  position:relative;
+}
+.highlightsDiv{
+  padding: 5%;
+}
+.highlightsTitle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.highlightsDes{
+  color: #8f8f8f;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  padding: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+.pressLogo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.PriceTitle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.PricingHeader{
+  margin-bottom: 7%;
+}
+.PricingSubHeader{
+  font-size: 1.25rem;
+  color:#8f8f8f
+}
+#cta{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+.ctaText{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 3% 10%;
+  color: white;
+}
+#footer{
+  text-align: center;
+  font-size: .75rem;
+  color: #8f8f8f;
+}
+.FooterIcon{
+  padding: 8% 5% 1% 1%;
+}
+
+@media (max-width:1012px) and (min-width:990px){
+.AppleButton{
+  margin-left:-40px;
+}
+}
+
+@media (max-width:991px){
+  .PhoneImage{
+    position: static;
+    transform: rotate(0);
+    padding-left: 0;
+  }
+  #title{
+    text-align:center;
+
+  }
+  #features{
+    margin-top: 0;
+  }
+}
